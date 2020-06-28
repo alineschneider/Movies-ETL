@@ -2,7 +2,7 @@
 config.py
 
 # Adding additional files
-
+challenge.ipynb
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
