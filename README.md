@@ -16,12 +16,12 @@
 
 ### Merged Datasets
 Competing data:
-Wiki                     Movielens                Resolution
---------------------------------------------------------------------------
-title_wiki               title_kaggle             Drop Wikipedia.
-running_time             runtime                  Keep Kaggle; fill in zeros with Wikipedia data.
-budget_wiki              budget_kaggle            Keep Kaggle; fill in zeros with Wikipedia data.
-box_office               revenue                  Keep Kaggle; fill in zeros with Wikipedia data.
-release_date_wiki        release_date_kaggle      Drop Wikipedia.
-Language                 original_language        Drop Wikipedia.
-Production company(s)    production_companies     Drop Wikipedia. 
+Wiki | Movielens | Resolution
+------ | ------ | ------
+title_wiki | title_kaggle | Drop Wikipedia.
+running_time | runtime | Keep Kaggle; fill in zeros with Wikipedia data.
+budget_wiki | budget_kaggle | Keep Kaggle; fill in zeros with Wikipedia data.
+box_office | revenue | Keep Kaggle; fill in zeros with Wikipedia data.
+release_date_wiki | release_date_kaggle | Drop Wikipedia.
+Language | original_language | Drop Wikipedia.
+Production company(s) | production_companies | Drop Wikipedia. 
